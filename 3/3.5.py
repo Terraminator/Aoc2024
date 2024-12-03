@@ -5,7 +5,6 @@ with open("3.data", "r") as f:
     mem2=f.read().replace("\n", "")
 
 
-#mem2="do()mul(1,2)don't()amul(3,4)ado()mul(5,6)dadkd%%mulmul(7,8)don't()ddkapodkmul(9,9)sdadjiqdjdo()dfdkpofkrfmul(1,2)sdasdddon't()mul(9,9)"
 def main(mem2):
     npat=re.compile(r"don't\(\).*?do\(\)")
     npat2=re.compile(r"don't\(\).*")
